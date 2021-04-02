@@ -8,7 +8,7 @@ namespace HiddenVilla_Server.Data
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "super sunny"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "super sunny", "extra sunny"
         };
 
         public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
