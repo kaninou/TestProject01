@@ -11,6 +11,12 @@ namespace HiddenVilla_Server.Data
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "super sunny", "windy"
         };
 
+
+        public float getTemperature()
+        {
+            return 0.0f;
+        }
+
         public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
         {
             var rng = new Random();
